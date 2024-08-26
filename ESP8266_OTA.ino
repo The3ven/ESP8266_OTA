@@ -155,7 +155,7 @@ void setup()
   {
     Serial.println("Firmware update needed!");
     Serial.println("New firmware detected");
-    ESPhttpUpdate.setLedPin(LED_BUILTIN, LOW);
+    ESPhttpUpdate.setLedPin(LED_PIN, LOW);
     ESPhttpUpdate.onStart(onStart);
     ESPhttpUpdate.onEnd(onEnd);
     ESPhttpUpdate.onError(onError);
