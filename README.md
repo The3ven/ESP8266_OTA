@@ -15,7 +15,7 @@ Configuration
 -------------
 
 * You need to create a `config.h` file with your WiFi credentials (SSID and password) you can use `config_example.h`
-* You need to create a `certs.h` file with the DigiCert Global Root G2 certificate with the help of `certUpdate.sh` for linux, we will update for windows soon
+* You need to create a `certs.h` file with the DigiCert Global Root G2 certificate with the help of `certUpdate.sh` for Linux, `certUpdate.bat` for Windows
 * You need to update the `github_host`, `github_port`, `URL_VERSION_FILE_PATH`, and `URL_fw_Bin` variables with your GitHub repository information
 
 How to Use
